@@ -13,32 +13,34 @@
 }
 .nav-menu-right li{
     list-style: none;
-    padding-right: 25px;
+    padding-right: 20px;
 }
 .nav-menu-right li a{
     color: black;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
 }
 .nav-menu-right li a i{
-    font-size: 22px;
-    width: 50px;
-    height: 50px;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
-    padding-top: 14px;
-    padding-left: 14px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-weight: 600!important;
 }
 .nav-menu-right li a i:hover{
     background-color: rgba(198, 194, 194, 0.559);
+    transition: .3s;
    
 }
 .nav-menu-right li a:hover{
     text-decoration: underline;
 }
 .nav-menu-right .profile-img img{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
 }
 .main-logo-image{
@@ -47,11 +49,74 @@
     align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-top: 40px;
     
 }
 .main-logo-image img{
     object-fit: cover;
-    height: 150px;
+    height: 100px;
     cursor: pointer;
 
+}
+.search-bar{
+    /* position: absolute; */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 1400px; */
+    margin-top: 20px;
+    min-width: 100px
+}
+.search-bar input{
+    /* position: absolute; */
+    outline: none;
+    width: 650px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid rgba(128, 128, 128, 0.487);
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 16px;
+}
+.searchicon{
+    position: relative; 
+     left: 30px;
+     color: rgba(128, 128, 128, 0.487);
+     font-size: 16px;
+}
+.right-icons{
+    position: relative;
+    right: 80px;
+}
+.right-icons img{
+    object-fit: cover;
+    height: 20px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.buttons button{
+    max-width: 200px;
+    height: 40px;
+    background-color: rgba(181, 179, 179, 0.275);
+    color: black;
+    border: none;
+    margin-right: 15px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    border: 1px solid rgba(128, 128, 128, 0.556);
+    transition: .5s;
 }
