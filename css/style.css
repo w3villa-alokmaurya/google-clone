@@ -67,7 +67,7 @@
     align-items: center;
     /* width: 1400px; */
     margin-top: 20px;
-    min-width: 100px
+    /* min-width: 100px */
 }
 .search-bar input{
     /* position: absolute; */
@@ -184,4 +184,27 @@ footer{
 }
 .bottom-text-footer .right{
     display: flex;
+}
+@media screen and (max-width:800px) {
+    footer{
+        height: auto;
+    }
+    .bottom-text-footer{
+
+        flex-direction: column;
+        justify-content: left;
+        padding-bottom: 20px;
+    }
+    .bottom-text-footer .left{
+        padding-bottom: 10px;
+    }
+    .top-text-footer{
+        justify-content: center;
+        align-items: center;
+    }
+    .top-text-footer p{
+        text-align: center;
+    }
+
+    
 }
