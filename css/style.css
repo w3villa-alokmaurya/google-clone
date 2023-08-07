@@ -120,3 +120,15 @@
     border: 1px solid rgba(128, 128, 128, 0.556);
     transition: .5s;
 }
+.languages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.languages a{
+    text-decoration: none;
+    padding-left: 10px;
+}
+.languages a:hover{
+    text-decoration: underline;
+}
